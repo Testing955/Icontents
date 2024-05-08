@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-08T23:11:06 IST" name="Suite" finished-at="2024-05-08T23:11:17 IST" duration-ms="10504">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_Login.verify_login()[pri:0, instance:IcontentTestCases.TC_001_Login@36c88a32]" name="verify_login" class="IcontentTestCases.TC_001_Login"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001_Login.verify_login()[pri:0, instance:IcontentTestCases.TC_001_Login@36c88a32]" name="verify_login" class="IcontentTestCases.TC_001_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_Login.verify_login()[pri:0, instance:IcontentTestCases.TC_001_Login@36c88a32]" name="verify_login" class="IcontentTestCases.TC_001_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-05-08T23:11:06 IST" name="UserLogin" finished-at="2024-05-08T23:11:17 IST" duration-ms="10504">
+      <class name="IcontentTestCases.TC_001_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:IcontentTestCases.TC_001_Login@36c88a32]" started-at="2024-05-08T23:11:06 IST" name="setup" finished-at="2024-05-08T23:11:16 IST" duration-ms="9198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:IcontentTestCases.TC_001_Login@36c88a32]" started-at="2024-05-08T23:11:16 IST" name="verify_login" finished-at="2024-05-08T23:11:17 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+      </class> <!-- IcontentTestCases.TC_001_Login -->
+    </test> <!-- UserLogin -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-05-08T23:11:22 IST" name="Suite (0)" finished-at="2024-05-08T23:14:22 IST" duration-ms="180029">
+    <groups>
+      <group name="regression">
+        <method signature="TC_004_HomeSignUp.setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@6a400542]" name="setup_signuphome" class="IcontentTestCases.TC_004_HomeSignUp"/>
+        <method signature="TC_004_HomeSignUp.setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" name="setup_signuphome" class="IcontentTestCases.TC_004_HomeSignUp"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_004_HomeSignUp.setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@6a400542]" name="setup_signuphome" class="IcontentTestCases.TC_004_HomeSignUp"/>
+        <method signature="TC_004_HomeSignUp.setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" name="setup_signuphome" class="IcontentTestCases.TC_004_HomeSignUp"/>
+      </group> <!-- smoke -->
+      <group name="master">
+        <method signature="TC_004_HomeSignUp.setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@6a400542]" name="setup_signuphome" class="IcontentTestCases.TC_004_HomeSignUp"/>
+        <method signature="TC_004_HomeSignUp.setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" name="setup_signuphome" class="IcontentTestCases.TC_004_HomeSignUp"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-05-08T23:11:22 IST" name="ChromeTest" finished-at="2024-05-08T23:11:47 IST" duration-ms="25066">
+      <class name="IcontentTestCases.TC_004_HomeSignUp">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@6a400542]" started-at="2024-05-08T23:11:22 IST" name="setup" finished-at="2024-05-08T23:11:26 IST" duration-ms="4161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@6a400542]" started-at="2024-05-08T23:11:26 IST" name="setup_signuphome" finished-at="2024-05-08T23:11:47 IST" duration-ms="20901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_signuphome -->
+      </class> <!-- IcontentTestCases.TC_004_HomeSignUp -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-05-08T23:11:22 IST" name="SafariTest" finished-at="2024-05-08T23:14:22 IST" duration-ms="180028">
+      <class name="IcontentTestCases.TC_004_HomeSignUp">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" started-at="2024-05-08T23:11:22 IST" name="setup" finished-at="2024-05-08T23:14:22 IST" duration-ms="180020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Hestabits-MacBook-Pro.local', ip: 'fe80:0:0:0:14be:451d:27ac:6311%en0']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Hestabits-MacBook-Pro.local', ip: 'fe80:0:0:0:14be:451d:27ac:6311%en0'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at IcontentTestBase.BasePage.setup(BasePage.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.10', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:402)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+... 22 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setup_signuphome()[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" started-at="2024-05-08T23:14:22 IST" name="setup_signuphome" finished-at="2024-05-08T23:14:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Hestabits-MacBook-Pro.local', ip: 'fe80:0:0:0:14be:451d:27ac:6311%en0']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Hestabits-MacBook-Pro.local', ip: 'fe80:0:0:0:14be:451d:27ac:6311%en0'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+at IcontentTestBase.BasePage.setup(BasePage.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.10', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:402)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+... 22 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:385)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_signuphome -->
+        <test-method is-config="true" signature="captureScreen(java.lang.String)[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" started-at="2024-05-08T23:14:22 IST" name="captureScreen" finished-at="2024-05-08T23:14:22 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+        <test-method is-config="true" signature="captureScreen(java.lang.String)[pri:0, instance:IcontentTestCases.TC_004_HomeSignUp@7e0b85f9]" started-at="2024-05-08T23:14:22 IST" name="captureScreen" finished-at="2024-05-08T23:14:22 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreen -->
+      </class> <!-- IcontentTestCases.TC_004_HomeSignUp -->
+    </test> <!-- SafariTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

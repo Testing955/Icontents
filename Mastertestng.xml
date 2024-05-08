@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="os" value="mac"/>
+<parameter name ="browser" value ="chrome"/>
+<listeners>
+	<listener class-name="Utilities.ExtentReportManager"/>
+</listeners>
+  <test thread-count="5" name="UserLogin">
+<groups>
+<run>
+<include name="sanity"/>	
+<include name="regression"/>
+<include name="master"/>
+<exclude name=""/>
+</run>		
+</groups>
+<classes>
+<class name ="IcontentTestCases.TC_001_Login"/> 
+<!-- <class name ="IcontentTestCases.TC_003_ProfessionalSignUp"/>
+<class name ="IcontentTestCases.TC_002_ForgetPassword"/>	
+<class name ="IcontentTestCases.TC_004_HomeSignUp"/>  -->	
+</classes>
+
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
