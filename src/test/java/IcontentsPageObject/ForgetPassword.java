@@ -30,7 +30,7 @@ fpbutton.click();
 }
 public void emailfield()
 {
-email.sendKeys("ratant@yopmail.com");
+email.sendKeys("sfjwb@yopmail.com");
 }
 public void verify()
 {

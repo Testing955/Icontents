@@ -16,12 +16,12 @@
       </run>
     </groups>
     <classes>
-      <class name="IcontentTestCases.TC_001_Login">
+      <class name="IcontentTestCases.TC_003_ProfessionalSignUp">
         <methods>
           <include name="setup"/>
-          <include name="verify_login"/>
+          <include name="ProfessionalSignUp"/>
         </methods>
-      </class> <!-- IcontentTestCases.TC_001_Login -->
+      </class> <!-- IcontentTestCases.TC_003_ProfessionalSignUp -->
     </classes>
   </test> <!-- UserLogin(failed) -->
 </suite> <!-- Failed suite [Suite] -->

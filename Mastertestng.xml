@@ -16,12 +16,15 @@
 </run>		
 </groups>
 <classes>
-<class name ="IcontentTestCases.TC_001_Login"/> 
-<!-- <class name ="IcontentTestCases.TC_003_ProfessionalSignUp"/>
-<class name ="IcontentTestCases.TC_002_ForgetPassword"/>	
-<class name ="IcontentTestCases.TC_004_HomeSignUp"/>  -->	
+<class name ="IcontentTestCases.TC_003_ProfessionalSignUp"/>
+<!--<class name ="IcontentTestCases.TC_001_Login"/> 
+ <class name ="IcontentTestCases.TC_002_ForgetPassword"/>
+<class name ="IcontentTestCases.TC_003_ProfessionalSignUp"/>	
+<class name ="IcontentTestCases.TC_004_HomeSignUp"/>	
+ <class name ="IcontentTestCases.TC_005_Professionalsignupwithcode"/>
+ <class name ="IcontentTestCases.TC_006_Professional_ProjectCreate"/>
+ <class name ="IcontentTestCases.TC_007_Insurred_Creation"/>
+  <class name ="IcontentTestCases.TC_008_Professionalcreate"/>  -->
 </classes>
-
-
-  </test> <!-- Test -->
+</test> <!-- Test -->
 </suite> <!-- Suite -->

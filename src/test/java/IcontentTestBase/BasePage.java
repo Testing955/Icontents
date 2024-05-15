@@ -64,7 +64,7 @@ case "edge" : capabilities.setBrowserName("MicrosoftEdge");break;
 case "safari" : capabilities.setBrowserName("Safari");break;
 default : System.out.println("No matching browser....."); return;
 }
-driver = new RemoteWebDriver(new URL("http://localhost:4444//wd/hub"),capabilities);
+driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
 }
 else if(p.getProperty("execution_env").equalsIgnoreCase("local"))
 {

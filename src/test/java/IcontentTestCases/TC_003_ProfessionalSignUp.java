@@ -22,8 +22,18 @@ Thread.sleep(5000);
 ps.fname(randomString().toLowerCase());
 ps.lname(randomString().toLowerCase());
 ps.efield(randomString().toLowerCase()+"@yopmail.com");
+//ps.emfield();
 ps.mobilenumber(randomNumeric());
 ps.contfield();
+ps.companynamefield(randomString());
+//ps.codefield();
+String password = randomAlphaNumeric();
+Thread.sleep(1000);
+ps.enterpwd(password);
+ps.confirmpwd(password);
+Thread.sleep(10000);
+ps.termsandcondition();
+ps.registerfield();
 }
 catch(Exception e)
 {

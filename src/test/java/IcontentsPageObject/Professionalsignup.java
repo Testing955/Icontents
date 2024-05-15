@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Professionalsignup extends BaseClass
+public class Professionalsignup extends Login
 {
 WebDriver driver;
 public Professionalsignup(WebDriver driver)
@@ -14,7 +14,7 @@ this.driver=driver;
 }
 @FindBy(xpath="//span[normalize-space()='Sign Up!']")
 WebElement signup;
-@FindBy(xpath="//*[@id=\"root\"]/div/div/div[1]/div/div/div/div[2]/div/div[3]/div/div[1]/div[2]/div")
+@FindBy(xpath="(//div[normalize-space()='Professional'])[3]")
 WebElement professional;
 @FindBy(xpath="//input[@placeholder='Enter your first name']")
 WebElement firstname;
@@ -24,8 +24,20 @@ WebElement lastname;
 WebElement email;
 @FindBy(xpath="//input[@placeholder='Enter your mobile number']")
 WebElement mobile;
-@FindBy(xpath="//*[@id=\"root\"]/div/div/div[1]/div/div/div/div[2]/div/div/div[6]/div/div")
+@FindBy(xpath="(//div[normalize-space()='Continue'])[4]")
 WebElement cont;
+@FindBy(xpath="//input[@placeholder='Enter Company Name']")
+WebElement companyname;
+@FindBy(xpath="//input[@placeholder='Enter Invitation Code']")
+WebElement entercode;
+@FindBy(xpath="//input[@placeholder='Enter password']")
+WebElement enterpassword;
+@FindBy(xpath="//input[@placeholder='Confirm password']")
+WebElement confirmpassword;
+@FindBy(xpath="(//div[@class='css-146c3p1 r-lrvibr'])[4]")
+WebElement tandc;
+@FindBy(xpath="(//div[normalize-space()='Register'])[4]")
+WebElement register;
 public void signupbutton()
 {
 signup.click();
@@ -46,6 +58,10 @@ public void efield(String emailf)
 {
 email.sendKeys(emailf);
 }
+/*public void emfield()
+{
+email.sendKeys("mvi@yopmail.com");
+}*/
 public void mobilenumber(String mnumber)
 {
 mobile.sendKeys(mnumber);
@@ -53,5 +69,29 @@ mobile.sendKeys(mnumber);
 public void contfield()
 {
 cont.click();
+}
+public void companynamefield(String cfield)
+{
+companyname.sendKeys(cfield);
+}
+public void codefield()
+{
+entercode.sendKeys("");
+}
+public void enterpwd(String enterpwdfield)
+{
+enterpassword.sendKeys(enterpwdfield);
+}
+public void confirmpwd(String confirmpwdfield)
+{
+confirmpassword.sendKeys(confirmpwdfield);
+}
+public void termsandcondition()
+{
+tandc.click();
+}
+public void registerfield()
+{
+register.click();
 }
 }

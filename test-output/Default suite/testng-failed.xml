@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="IcontentTestCases.TC_004_HomeSignUp">
+      <class name="IcontentTestCases.TC_003_ProfessionalSignUp">
         <methods>
           <include name="setup"/>
-          <include name="setup_signuphome"/>
           <include name="captureScreen"/>
+          <include name="ProfessionalSignUp"/>
         </methods>
-      </class> <!-- IcontentTestCases.TC_004_HomeSignUp -->
+      </class> <!-- IcontentTestCases.TC_003_ProfessionalSignUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
